@@ -6,14 +6,10 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.test.SpringApplicationConfiguration
 import org.springframework.boot.test.TestRestTemplate
 import org.springframework.boot.test.WebIntegrationTest
-import org.springframework.core.ParameterizedTypeReference
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner
-import org.springframework.test.context.web.WebAppConfiguration
 import org.springframework.web.util.UriComponentsBuilder
 import org.hamcrest.CoreMatchers.*;
 import org.junit.Assert.*;
-import org.springframework.http.HttpEntity
-import org.springframework.http.HttpMethod
 
 @RunWith(SpringJUnit4ClassRunner::class)
 @SpringApplicationConfiguration(classes = arrayOf(KotlinExposedDemoApplication::class))
